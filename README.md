@@ -23,7 +23,7 @@
 | Minecraft | 真クラ | リンク |
 :---:|:---:|:---:
 | 1.18(.1) | *2.0.3(仮)* | *製作中* |
-| 1.17(.1) | 2.0.2 | 準備中 |
+| 1.17(.1) | 2.0.2 | [download](https://github.com/tombo-akane/TrueCrafterMode-AkanePatch/releases/download/v2.0.2-mc1.17.1/TrueCrafterMode-AkanePatch-v2.0.1-mc1.17.1.zip ) |
 | ~1.17 | 2.0.1 | [オリジナル](https://chuzume.hatenablog.jp/entry/true_minecrafter_mode ) |
 
 ## 不具合など
