@@ -12,7 +12,7 @@
     scoreboard players add @s[tag=T.HardPiglin_F.Resist] T.HardMoveset2 1
     execute if entity @s[tag=T.HardPiglin_F.Resist,scores={T.HardMoveset2=10}] run playsound minecraft:entity.generic.drink hostile @a ~ ~ ~ 1 1
     execute if entity @s[tag=T.HardPiglin_F.Resist,scores={T.HardMoveset2=20}] run playsound minecraft:entity.player.burp neutral @a ~ ~ ~ 1 1
-    effect give @s[tag=T.HardPiglin_F.Resist,scores={T.HardMoveset2=20}] fire_resistance 120 0 
+    effect give @s[tag=T.HardPiglin_F.Resist,scores={T.HardMoveset2=20}] fire_resistance 120 0
 # 耐火ポーション飲み終わり
     execute if entity @s[tag=T.HardPiglin_F.Resist,scores={T.HardMoveset2=30}] run function t.hard:enemy/piglin/fire_resist_finish
 

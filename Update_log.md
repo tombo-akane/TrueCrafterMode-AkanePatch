@@ -1,4 +1,36 @@
 # 更新履歴
+
+## 2024/09/02 Ver 2.0.2-mc1.17.1
+- エンドラが放つファイアボールが元気なく落ちていってたのを修正、全力でキミを追尾するように。……でもちょっと早すぎるね？
+- for dev
+  - `/data/t.hard/functions/enemy/ender_dragon/dragon_fireball.mcfunction`にて指定されていた`t.hard:move_fb_2`がなかったため、[ここ](https://github.com/Chuzume/True-Crafter-Mode/blob/98e6b732a31a2ffa986c6afaedb82e1ffae95ef1/data/t.hard/functions/move_fb_2.mcfunction )から該当のファイルを引っ張ってきた
+    - スコアボード`ChuzSpeed`を`Chuz_Speed`に、`Motion_Power`を`Chuz_Calc`に置き換えて応急処置
+    - 飛んでくる速度が明らかに早いけど、これくらい強化されててもいい気がしたので放置。~~面倒だったとか言えない~~
+  - `/data/t.hard/functions/enemy/vindicator/attack.mcfunction`の3行目にタグ`#t.hard:human`が指定されていたため、`#t.hard:zombie_enemy`に書き換えた。
+
+<!-- 
+### 「for dev」セクションについて
+- ゲームプレイに関わらない変更を記載
+  - Gitのコミットログを補足する意図
+  - なので誰が見ても意図が明確だろう変更は省略
+  - ユーザー向けの記載と重複する場合もあり
+ -->
+
+
+<!-- 
+出過ぎた真似でございますがバグ修正的な……です。
+
+意図して消してあったりするものを復活させるとか、いらないこと、変なことたくさんしてそうで怖い。なにとぞお許しください。Pull Request送る勇気はありませんでした。
+ -->
+
+
+<!-- ### 2024/09/02 forked by [@tombo-akane](https://github.com/tombo-akane ) -->
+
+## 2021/11/21 Ver 2.0.1
+- 未使用のルートテーブル名がリネームに巻き込まれてすごい名前になっていたのを修正。
+- これにより、Spigotサーバーなどでも動くようになった…んでしょうか？  
+（[Github](https://github.com/Chuzume/True-Crafter-Mode/releases/tag/v2.0.1 )から転記）
+
 ## 2021/08/04 Ver 2.0.0
 - 冷静に考えたら後方互換がないし、バージョン表記はこれが正しい気がする
 - 「バニラモブかどうか」を判別する自分用のタグを追加
