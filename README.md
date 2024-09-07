@@ -17,12 +17,15 @@
 
 - エンダードラゴンが飛ばす火の玉がちゃんと飛んでくるように
   - 速度の調整が結構甘い気がしますが、気のせいだと信じています。
+- フロストが氷渡りをちゃんと履くように
+  - 海に溺れてしまっていました。ゲストなので丁重に扱わないとね。
 
 ## バージョン早見表
 
 | Minecraft | 真クラ | リンク |
 :---:|:---:|:---:
-| 1.18(.1) | *2.0.3(仮)* | *製作中* |
+| 1.18.2 | *2.0.4(仮)* | *制作中* |
+| 1.18(.1) | 2.0.3 | [download](https://github.com/tombo-akane/TrueCrafterMode-AkanePatch/releases/download/v2.0.3-mc1.18.1/TrueCrafterMode-AkanePatch-v2.0.3-mc1.18.1.zip ) |
 | 1.17(.1) | 2.0.2 | [download](https://github.com/tombo-akane/TrueCrafterMode-AkanePatch/releases/download/v2.0.2-mc1.17.1/TrueCrafterMode-AkanePatch-v2.0.1-mc1.17.1.zip ) |
 | ~1.17 | 2.0.1 | [オリジナル](https://chuzume.hatenablog.jp/entry/true_minecrafter_mode ) |
 
@@ -31,8 +34,9 @@
 
 <details><summary>修正予定のない不具合</summary>
 
-- 一部のMobをサバイバルモードでスポーンエッグを使用してスポーンさせた際、一部のコマンドが正常に動作しない
-  - ウィザースケルトンなどが該当します（武器が石剣のまま、など）。実際のプレイに影響はないため修正予定はなく、原因も調査していません。
+- ウィザースケルトンを特定の方法でスポーンさせた際、石剣を持ったままになる
+  - 実際のプレイに影響がないため、修正する予定はありません。
+  - `summon`で召喚する際に座標を指定しなかったり、サバイバルモードでスポーンエッグからスポーンさせたときに発生する模様です。
 
 </details>
 
